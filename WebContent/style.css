@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+body {
+	background-color: rgb(189, 113, 99);
+}
+ul {
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+#list {
+	display: flex;
+    justify-content: space-between;
+}
+button {
+	text-align: center;
+	height: 25px;
+	width: 50px;
+	background-color: gray;
+	padding: 4px 8px;
+	border: thin solid black;
+	justify-content: space-between;
+	float: right;
+	margin-left: 30px;
+}
+#checkout {
+	width: 80px;
+	background-color: yellow;
+}
+#check {
+	width: 50%;
+	float: left;
+}
+#total {
+	width: 80%;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+span {
+	margin-left: 28px;
+	float: right;
+	border: thin solid black;
+}
+#price {
+	margin-top: 10px;
+	float: none;
+	border: thin solid black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: white;
+	padding: 3px 8px;
+	text-align: center;
+	display: inline;
+	
+}
+
+.qt {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 4px;
+	background-color: white;
+	padding: 3px 8px;
+	text-align: center;
+}
+
+}
